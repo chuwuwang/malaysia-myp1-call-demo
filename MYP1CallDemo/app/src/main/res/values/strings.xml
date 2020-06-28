@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">MYP1CallDemo</string>
+
+    <string name="sale">SALE</string>
+    <string name="revoke">VOID</string>
+    <string name="settlement">SETTLEMENT</string>
+
+    <string name="ok">OK</string>
+
+    <string name="input_amount">Amount</string>
+    <string name="input_trans_id">Trans ID</string>
+    <string name="input_ori_voucher">ORI VOU NO </string>
+
+</resources>
