@@ -43,5 +43,4 @@ public class ResultActivity extends BaseActivity {
         tvResult.setText(result);
     }
 
-
 }

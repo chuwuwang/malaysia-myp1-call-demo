@@ -43,5 +43,4 @@ public class SaleActivity extends BaseActivity {
         startActivity(intent);
     }
 
-
 }

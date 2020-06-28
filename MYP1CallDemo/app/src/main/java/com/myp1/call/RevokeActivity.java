@@ -38,5 +38,4 @@ public class RevokeActivity extends BaseActivity {
         startActivity(intent);
     }
 
-
 }

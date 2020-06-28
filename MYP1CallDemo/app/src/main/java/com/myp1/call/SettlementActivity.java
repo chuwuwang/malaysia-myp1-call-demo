@@ -28,5 +28,4 @@ public class SettlementActivity extends BaseActivity {
         startActivity(intent);
     }
 
-
 }
