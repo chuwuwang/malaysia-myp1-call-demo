@@ -25,6 +25,7 @@
         <activity android:name=".SaleActivity" />
         <activity android:name=".RevokeActivity" />
         <activity android:name=".SettlementActivity" />
+        <activity android:name=".LocalSearchActivity" />
 
         <receiver android:name=".ResultReceiver">
             <intent-filter>

@@ -5,6 +5,7 @@
     <string name="sale">SALE</string>
     <string name="revoke">VOID</string>
     <string name="settlement">SETTLEMENT</string>
+    <string name="local_search">LOCAL SEARCH</string>
 
     <string name="ok">OK</string>
 

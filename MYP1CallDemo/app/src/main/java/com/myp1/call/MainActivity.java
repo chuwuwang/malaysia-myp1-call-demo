@@ -16,6 +16,7 @@ public class MainActivity extends BaseActivity {
         findViewById(R.id.btn_sale).setOnClickListener(this);
         findViewById(R.id.btn_revoke).setOnClickListener(this);
         findViewById(R.id.btn_settlement).setOnClickListener(this);
+        findViewById(R.id.btn_local_search).setOnClickListener(this);
     }
 
     @Override
@@ -30,6 +31,9 @@ public class MainActivity extends BaseActivity {
                 break;
             case R.id.btn_settlement:
                 openActivity(SettlementActivity.class);
+                break;
+            case R.id.btn_local_search:
+                openActivity(LocalSearchActivity.class);
                 break;
         }
     }
