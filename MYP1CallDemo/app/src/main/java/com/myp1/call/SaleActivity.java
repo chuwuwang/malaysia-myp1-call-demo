@@ -32,6 +32,7 @@ public class SaleActivity extends BaseActivity {
         intent.putExtra("requestType", "SALE");
         intent.putExtra("outOrderNo", outOrderNo);
         intent.putExtra("packageName", packageName);
+        intent.setClassName("sun" + "mi.pay.alliance", "mi.payment.L3.L3Route");
 
         try {
             String amount = mEditAmount.getText().toString();
