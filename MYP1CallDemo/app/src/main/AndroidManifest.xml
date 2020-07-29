@@ -24,13 +24,15 @@
 
         <activity android:name=".SaleActivity" />
         <activity android:name=".RevokeActivity" />
+        <activity android:name=".PreAuthActivity" />
         <activity android:name=".SettlementActivity" />
         <activity android:name=".LocalSearchActivity" />
+        <activity android:name=".CancelOrderActivity" />
 
         <receiver android:name=".ResultReceiver">
             <intent-filter>
-                <!--<action android:name="com.weak.payment.ACTION_RESULT" />-->
-                <action android:name="com.weak.payment.ACTION_RESULT_MOBILITY_ONE" />
+                <action android:name="com.weak.payment.ACTION_RESULT" />
+                <!--<action android:name="com.weak.payment.ACTION_RESULT_MOBILITY_ONE" />-->
             </intent-filter>
         </receiver>
 

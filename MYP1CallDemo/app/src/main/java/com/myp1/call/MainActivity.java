@@ -17,6 +17,8 @@ public class MainActivity extends BaseActivity {
         findViewById(R.id.btn_revoke).setOnClickListener(this);
         findViewById(R.id.btn_settlement).setOnClickListener(this);
         findViewById(R.id.btn_local_search).setOnClickListener(this);
+        findViewById(R.id.btn_cancel_order).setOnClickListener(this);
+        findViewById(R.id.btn_pre_auth).setOnClickListener(this);
     }
 
     @Override
@@ -34,6 +36,12 @@ public class MainActivity extends BaseActivity {
                 break;
             case R.id.btn_local_search:
                 openActivity(LocalSearchActivity.class);
+                break;
+            case R.id.btn_cancel_order:
+                openActivity(CancelOrderActivity.class);
+                break;
+            case R.id.btn_pre_auth:
+                openActivity(PreAuthActivity.class);
                 break;
         }
     }

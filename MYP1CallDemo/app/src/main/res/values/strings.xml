@@ -6,6 +6,8 @@
     <string name="revoke">VOID</string>
     <string name="settlement">SETTLEMENT</string>
     <string name="local_search">LOCAL SEARCH</string>
+    <string name="cancel_order">CANCEL ORDER</string>
+    <string name="pre_auth">PRE_AUTH</string>
 
     <string name="ok">OK</string>
 

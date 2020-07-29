@@ -16,8 +16,7 @@ public class BaseActivity extends AppCompatActivity implements View.OnClickListe
 
     private static final String TAG = "BaseActivity";
 
-    public static final String CALL_EXTRA_ACTION = "sun" + "mi.payment.L3";
-    // public static final String CALL_EXTRA_ACTION = "com.weak.payment.ACTION_PAY";
+    public static final String CALL_EXTRA_ACTION = "com.weak.payment.ACTION_PAY";
     // public static final String CALL_EXTRA_ACTION = "com.weak.payment.ACTION_PAY_MOBILITY_ONE";
 
     @Override
