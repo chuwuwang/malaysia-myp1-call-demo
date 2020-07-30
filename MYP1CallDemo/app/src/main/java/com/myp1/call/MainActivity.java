@@ -19,6 +19,7 @@ public class MainActivity extends BaseActivity {
         findViewById(R.id.btn_local_search).setOnClickListener(this);
         findViewById(R.id.btn_cancel_order).setOnClickListener(this);
         findViewById(R.id.btn_pre_auth).setOnClickListener(this);
+        findViewById(R.id.btn_pre_auth_void).setOnClickListener(this);
     }
 
     @Override
@@ -42,6 +43,9 @@ public class MainActivity extends BaseActivity {
                 break;
             case R.id.btn_pre_auth:
                 openActivity(PreAuthActivity.class);
+                break;
+            case R.id.btn_pre_auth_void:
+                openActivity(PreAuthVoidActivity.class);
                 break;
         }
     }

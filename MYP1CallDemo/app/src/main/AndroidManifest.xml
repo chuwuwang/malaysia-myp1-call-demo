@@ -25,6 +25,8 @@
         <activity android:name=".SaleActivity" />
         <activity android:name=".RevokeActivity" />
         <activity android:name=".PreAuthActivity" />
+        <activity android:name=".PreAuthVoidActivity" />
+
         <activity android:name=".SettlementActivity" />
         <activity android:name=".LocalSearchActivity" />
         <activity android:name=".CancelOrderActivity" />

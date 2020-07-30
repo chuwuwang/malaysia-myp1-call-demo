@@ -8,11 +8,18 @@
     <string name="local_search">LOCAL SEARCH</string>
     <string name="cancel_order">CANCEL ORDER</string>
     <string name="pre_auth">PRE_AUTH</string>
+    <string name="pre_auth_void">PRE_AUTH VOID</string>
+    <string name="pre_auth_complete">PRE_AUTH COMPLETE</string>
+    <string name="pre_auth_complete_void">PRE_AUTH COMPLETE VOID</string>
 
     <string name="ok">OK</string>
 
     <string name="input_amount">Amount</string>
     <string name="input_trans_id">Trans ID</string>
-    <string name="input_ori_voucher">ORI VOU NO </string>
+    <string name="input_ori_auth">ORI AUTH NO</string>
+    <string name="input_ori_voucher">ORI VOU NO</string>
+    <string name="input_ori_reference">ORI REF NO</string>
+    <string name="input_ori_date">ORI TRANSACTION DATE</string>
+    <string name="input_ori_time">ORI TRANSACTION TIME</string>
 
 </resources>
