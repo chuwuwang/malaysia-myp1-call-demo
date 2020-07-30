@@ -5,15 +5,15 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 
-public class RevokeActivity extends BaseActivity {
+public class PreAuthCompleteVoidActivity extends BaseActivity {
 
-    private EditText mEditVoucher;
     private EditText mEditTransId;
+    private EditText mEditVoucher;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_revoke);
+        setContentView(R.layout.activity_pre_auth_complete_void);
         initView();
     }
 
@@ -25,17 +25,17 @@ public class RevokeActivity extends BaseActivity {
     }
 
     @Override
-    public void onClick(View v) {
+    public void onClick(View view) {
         String packageName = getPackageName();
+        String oriVouNo = mEditVoucher.getText().toString();
         String outOrderNo = mEditTransId.getText().toString();
-        String oriVoucherNo = mEditVoucher.getText().toString();
 
         Intent intent = new Intent(CALL_EXTRA_ACTION);
-        intent.putExtra("requestType", "VOID");
+        intent.putExtra("requestType", "PRE_AUTH_COMPLETE_VOID");
         intent.putExtra("outOrderNo", outOrderNo);
         intent.putExtra("packageName", packageName);
 
-        intent.putExtra("oriVouNo", oriVoucherNo);
+        intent.putExtra("oriVouNo", oriVouNo);
         startActivity(intent);
     }
 

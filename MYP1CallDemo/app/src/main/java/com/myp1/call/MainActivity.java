@@ -53,6 +53,7 @@ public class MainActivity extends BaseActivity {
                 openActivity(PreAuthCompleteActivity.class);
                 break;
             case R.id.btn_pre_auth_complete_void:
+                openActivity(PreAuthCompleteVoidActivity.class);
                 break;
         }
     }

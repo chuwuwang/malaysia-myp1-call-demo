@@ -27,6 +27,7 @@
         <activity android:name=".PreAuthActivity" />
         <activity android:name=".PreAuthVoidActivity" />
         <activity android:name=".PreAuthCompleteActivity" />
+        <activity android:name=".PreAuthCompleteVoidActivity" />
 
         <activity android:name=".SettlementActivity" />
         <activity android:name=".LocalSearchActivity" />
