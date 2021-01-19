@@ -35,6 +35,8 @@ public class RevokeActivity extends BaseActivity {
         intent.putExtra("outOrderNo", outOrderNo);
         intent.putExtra("packageName", packageName);
 
+        intent.putExtra("isAdminPassword", false);
+
         intent.putExtra("oriVouNo", oriVoucherNo);
         startActivity(intent);
     }

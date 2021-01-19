@@ -25,6 +25,9 @@ public class SettlementActivity extends BaseActivity {
         Intent intent = new Intent(CALL_EXTRA_ACTION);
         intent.putExtra("requestType", "SETTLEMENT");
         intent.putExtra("packageName", packageName);
+
+        intent = addUserCustomTicketContent(intent);
+
         startActivity(intent);
     }
 

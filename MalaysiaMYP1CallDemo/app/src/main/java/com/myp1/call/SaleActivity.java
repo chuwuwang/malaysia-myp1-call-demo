@@ -33,8 +33,7 @@ public class SaleActivity extends BaseActivity {
         intent.putExtra("outOrderNo", outOrderNo);
         intent.putExtra("packageName", packageName);
 
-        intent.putExtra("receiptType", 1);
-        intent.putExtra("isWaitingForResult", true);
+        intent = addUserCustomTicketContent(intent);
 
         try {
             String amount = mEditAmount.getText().toString();

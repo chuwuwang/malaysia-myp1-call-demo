@@ -8,6 +8,8 @@ import android.content.pm.ResolveInfo;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
+import android.widget.CheckBox;
+import android.widget.EditText;
 import android.widget.Toast;
 
 import java.util.List;
@@ -18,6 +20,22 @@ public class BaseActivity extends AppCompatActivity implements View.OnClickListe
 
     public static final String CALL_EXTRA_ACTION = "com.weak.payment.ACTION_PAY";
     // public static final String CALL_EXTRA_ACTION = "com.weak.payment.ACTION_PAY_MOBILITY_ONE";
+
+    public Intent addUserCustomTicketContent(Intent intent) {
+        EditText receiptTypeEdit = findViewById(R.id.edit_receipt_type);
+        CheckBox printTicketBox = findViewById(R.id.cb_print_ticket);
+        CheckBox waitingForResultBox = findViewById(R.id.cb_waiting_for_result);
+
+        boolean isPrintTicket = printTicketBox.isChecked();
+        String receiptType = receiptTypeEdit.getText().toString();
+        boolean isWaitingForResult = waitingForResultBox.isChecked();
+
+        intent.putExtra("receiptType", receiptType);
+        intent.putExtra("isPrintTicket", isPrintTicket);
+        intent.putExtra("isWaitingForResult", isWaitingForResult);
+
+        return intent;
+    }
 
     @Override
     public void startActivity(Intent intent) {
