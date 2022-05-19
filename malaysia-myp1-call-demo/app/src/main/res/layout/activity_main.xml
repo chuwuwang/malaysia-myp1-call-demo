@@ -48,6 +48,16 @@
             android:text="@string/local_search"
             android:textSize="14sp" />
 
+        <Button
+            android:id="@+id/btn_logon"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="30dp"
+            android:text="@string/logon"
+            android:textSize="14sp" />
+
     </LinearLayout>
 
 </ScrollView>

@@ -3,6 +3,7 @@
     <string name="app_name">MYP1CallDemo</string>
 
     <string name="sale">SALE</string>
+    <string name="logon">Logon</string>
     <string name="revoke">VOID</string>
     <string name="settlement">SETTLEMENT</string>
     <string name="local_search">LOCAL SEARCH</string>
