@@ -30,6 +30,7 @@
         <receiver android:name=".ResultReceiver">
             <intent-filter>
                 <action android:name="com.weak.payment.ACTION_RESULT" />
+                <action android:name="com.weak.payment.ACTION_RESULT_PAY_DEE" />
                 <action android:name="com.weak.payment.ACTION_RESULT_MOBILITY_ONE" />
             </intent-filter>
         </receiver>
