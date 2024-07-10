@@ -32,6 +32,7 @@ public class SaleActivity extends BaseActivity {
         intent.putExtra("requestType", "SALE");
         intent.putExtra("outOrderNo", outOrderNo);
         intent.putExtra("packageName", packageName);
+        intent.putExtra("paymentMethod", "Duitnow Code");
 
         try {
             String amount = mEditAmount.getText().toString();

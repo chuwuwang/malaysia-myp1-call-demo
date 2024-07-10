@@ -11,9 +11,9 @@ import java.util.List;
 
 public class BaseActivity extends AppCompatActivity implements View.OnClickListener {
 
-    // public static final String CALL_EXTRA_ACTION = "com.weak.payment.ACTION_PAY";
+    public static final String CALL_EXTRA_ACTION = "com.weak.payment.ACTION_PAY";
     // public static final String CALL_EXTRA_ACTION = "com.weak.payment.ACTION_PAY_MOBILITY_ONE";
-    public static final String CALL_EXTRA_ACTION = "com.weak.payment.ACTION_PAY_PAY_DEE";
+    // public static final String CALL_EXTRA_ACTION = "com.weak.payment.ACTION_PAY_PAY_DEE";
 
     @Override
     public void startActivity(Intent intent) {
